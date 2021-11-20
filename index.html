@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/9e5d1913ca.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Meddon&family=Nunito:wght@300&family=Pacifico&family=Varela+Round&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+
+        <h1 class="navTitle">movie</h1>
+
+        <nav class="navBar">
+            <ul class="navUl nav">
+                <li class="navLi"><a class="aHome" href="#" onclick="returnColor()"><i class="fas fa-home icon"></i>
+                        home</a>
+                </li>
+                <li class="navLi"><a class="aSearch" href="#" onclick="changeColor()"><i
+                            class=" fas fa-search icon"></i>
+                        search</a></li>
+                <li class="navLi"><a class="aWatchlist" href="#" onclick="changeColor()"><i class=" fas fa-plus
+                        icon"></i> watchlist</a></li>
+                <li class="navLi"><a class="aOriginals" href="#" onclick="changeColor()"><i class=" fas fa-star
+                        icon"></i> originals</a></li>
+                <li class="navLi"><a class="aMovies" href="#" onclick="changeColor()"><i class=" fas fa-film icon"></i>
+                        movies</a></li>
+                <li class="navLi"><a class="aSeries" href="#" onclick="changeColor()"><i class=" fas fa-tv icon"></i>
+                        series</a></li>
+            </ul>
+
+            <ul class="navUl sign">
+                <li class="navLi"><a href="#">log in</a></li>
+                <li class="navLi signUp"><a href="#">sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hContainer">
+            <h2 class="title">movie</h2>
+
+            <h3 class="movName">the best</h3>
+        </div>
+
+
+        <div class="btnsContainer">
+            <button class="btn playBtn">play</button>
+            <button class="btn trailerBtn">trailer</button>
+
+            <a class="circleBtn cBtn" href="#"><i class="icn fas fa-plus-circle"></i></a>
+            <a class="circleBtn cBtn" href="#"><i class="icn fas fa-users"></i></a>
+        </div>
+
+        <div class="pContainer">
+            <p class="parag movInfo">2021.2h 30m.drama.action.fantacy</p>
+            <p class="parag movDescrebtion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, a ad. Sit
+                officia quas beatae est temporibus minus officiis. Aspernatur.</p>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

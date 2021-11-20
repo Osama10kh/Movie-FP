@@ -1,0 +1,201 @@
+/* font family */
+
+/* font-family: 'Comforter Brush', cursive;
+font-family: 'Meddon', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Varela Round', sans-serif; */
+
+/* universal selector */
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  color: #000000;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-family: "Varela Round", sans-serif;
+}
+
+body {
+  background: #9d9d9d url(../bk1.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* nav bar  */
+
+header {
+  position: relative;
+}
+
+.navTitle,
+.nav,
+.sign {
+  position: absolute;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.navTitle {
+  left: 50px;
+  color: #f9f9f9;
+  font-family: "Pacifico", cursive;
+}
+
+.nav {
+  left: 150px;
+}
+
+.sign {
+  right: 10px;
+}
+
+.navLi a {
+  margin-left: 30px;
+  color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 600ms;
+  -webkit-transition: 600ms;
+  -moz-transition: 600ms;
+  -ms-transition: 600ms;
+  -o-transition: 600ms;
+}
+
+.navLi a:hover,
+.navLi a:focus,
+.signUp a,
+.aHome {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.signUp a::before {
+  content: "";
+  width: 2px;
+  height: 30px;
+  background-color: #f9f9f9;
+  position: absolute;
+  right: 117px;
+  top: 21px;
+}
+
+.navUl,
+.navBar,
+header {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.icon {
+  margin-right: 3px;
+}
+
+/* main  */
+
+.hContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 85px;
+  top: 200px;
+  font-family: "Pacifico", cursive;
+}
+
+.title {
+  font-size: 4rem;
+  color: #f9f9f9;
+}
+
+.movName {
+  font-size: 11rem;
+  margin-top: 20px;
+  color: #f9f9f9;
+}
+
+/* btn  */
+
+.btnsContainer {
+  position: absolute;
+  left: 85px;
+  top: 500px;
+}
+
+.btn {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: #f9f9f9;
+  color: #000000;
+  width: 143px;
+  padding: 25px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #ffd700;
+  opacity: 0.8;
+  color: #000000;
+}
+
+.icn {
+  color: #f9f9f9;
+  font-size: 3rem;
+  position: relative;
+  top: 15px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.icn:hover {
+  font-size: 3.25rem;
+  color: #ffd700;
+}
+
+/* paragraph  */
+
+.pContainer {
+  position: absolute;
+  left: 85px;
+  bottom: 30px;
+  width: 50%;
+  line-height: 1.6;
+}
+
+.parag {
+  font-size: 1.2rem;
+  color: #f9f9f9;
+}
+
+.movInfo {
+  font-weight: bold;
+}
+
+.movDescrebtion {
+  margin-top: 15px;
+  font-weight: 500;
+}
