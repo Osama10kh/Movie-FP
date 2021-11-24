@@ -32,6 +32,13 @@ header {
   position: relative;
 }
 
+.popcorn-icon {
+  position: absolute;
+  left: -43px;
+  top: -25px;
+  width: 50px;
+}
+
 .navTitle,
 .nav,
 .sign {
@@ -47,7 +54,7 @@ header {
 }
 
 .nav {
-  left: 150px;
+  right: 25%;
 }
 
 .sign {
@@ -98,6 +105,11 @@ header {
 
 .icon {
   margin-right: 3px;
+  color: #fff;
+}
+
+.navLi a:hover .icon {
+  color: #000000;
 }
 
 /* main  */
@@ -108,7 +120,7 @@ header {
   align-items: center;
   position: absolute;
   left: 85px;
-  top: 200px;
+  top: 120px;
   font-family: "Pacifico", cursive;
 }
 
@@ -127,8 +139,8 @@ header {
 
 .btnsContainer {
   position: absolute;
-  left: 85px;
-  top: 500px;
+  left: 65%;
+  bottom: 200px;
 }
 
 .btn {
@@ -181,7 +193,7 @@ header {
 .pContainer {
   position: absolute;
   left: 85px;
-  bottom: 30px;
+  bottom: 200px;
   width: 50%;
   line-height: 1.6;
 }
